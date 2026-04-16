@@ -1,0 +1,50 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 '/Volumes/T7 Shield/AI-workspace/木安-AI分身/.claude/log_memory_write.py'"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(rendercv render:*)",
+      "Bash(rendercv create:*)",
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Bash(pip:*)",
+      "Bash(npm:*)",
+      "Bash(open:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "mcp__claude_ai_Gmail__gmail_create_draft",
+      "mcp__claude_ai_Gmail__gmail_search_messages"
+    ]
+  }
+}
