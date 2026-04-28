@@ -20,7 +20,7 @@
 **语言:** 英语（雅思 6.5，可作为工作语言）｜粤语｜普通话
 
 # 工作与实习经历
-## **闪量互动科技有限公司**, AI 产品经理助理
+## #text(size: 1.15em, weight: "bold", stroke: 0.4pt)[闪量互动科技有限公司] | AI 产品经理助理
 
 **2025.05 - 2025.08**
 
@@ -32,7 +32,7 @@
 
 
 
-## **万仕道（北京）管理咨询有限公司深圳分公司**, 猎头顾问
+## #text(size: 1.15em, weight: "bold", stroke: 0.4pt)[万仕道（北京）管理咨询有限公司深圳分公司] | 猎头顾问
 
 **2023.10 - 2024.08**
 
@@ -44,7 +44,7 @@
 
 
 
-## **可为易达国际货运代理（深圳）有限公司**, 海外客服
+## #text(size: 1.15em, weight: "bold", stroke: 0.4pt)[可为易达国际货运代理（深圳）有限公司] | 海外客服
 
 **2021.10 - 2022.08**
 
@@ -55,7 +55,7 @@
 
 
 # 项目经历
-## #text(size: 1.3em, weight: "bold")[个人 AI 操作系统 | AI 分身工程（Claude Code / v1.5）]
+## #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[个人 AI 操作系统 | AI 分身工程（Claude Code / v1.5）]
 
 项目背景
 
@@ -77,7 +77,7 @@
 
 
 
-## #text(size: 1.3em, weight: "bold")[CRM 智能客户标签系统（自主 PoC 方案设计，To B）]
+## #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[CRM 智能客户标签系统（自主 PoC 方案设计，To B）]
 
 项目背景
 
@@ -95,7 +95,7 @@
 
 
 
-## #text(size: 1.3em, weight: "bold")[Coach Titan | AI 饮食教练 MVP（iOS / Web）]
+## #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[Coach Titan | AI 饮食教练 MVP（iOS / Web）]
 
 项目背景
 
@@ -113,7 +113,7 @@
 
 
 
-## #text(size: 1.3em, weight: "bold")[语音下单助手（出行 AI Copilot，Concept Design）]
+## #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[语音下单助手（出行 AI Copilot，Concept Design）]
 
 项目背景
 
@@ -131,7 +131,7 @@
 
 
 
-## #text(size: 1.3em, weight: "bold")[飞书 AI 晨报 | 低成本新闻聚合助手（Python / Feishu / RSS）]
+## #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[飞书 AI 晨报 | 低成本新闻聚合助手（Python / Feishu / RSS）]
 
 项目背景
 
@@ -160,7 +160,7 @@
 
 2024.09 - 2025.08
 
-毕业论文：AI 在 HR 场景的应用与治理（标签体系与排序逻辑）
+毕业论文：AI 在 HR 场景的应用与治理（招聘自动化与绩效管理中的算法偏见与人机协作）
 
 
 

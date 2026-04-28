@@ -1,0 +1,13 @@
+# macOS metadata (resource fork files)
+._*
+.DS_Store
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python venv (rendercv)
+.venv/
+__pycache__/

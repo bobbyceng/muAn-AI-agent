@@ -103,7 +103,7 @@ cv:
         degree: 硕士
         date: 2024.09 - 2025.08
         location: 香港
-        summary: 毕业论文：AI 在 HR 场景的应用与治理（标签体系与排序逻辑）
+        summary: 毕业论文：AI 在 HR 场景的应用与治理（招聘自动化与绩效管理中的算法偏见与人机协作）
       - institution: 深圳技术大学
         area: 商务英语
         degree: 本科
@@ -117,11 +117,12 @@ design:
   typography:
     line_spacing: 0.3em
   sections:
-    space_between_regular_entries: 0.75em
+    space_between_regular_entries: 1.5em
     space_between_text_based_entries: 0.12em
   templates:
     normal_entry:
-      main_column: "#text(size: 1.3em, weight: \"bold\")[NAME]\nSUMMARY\nHIGHLIGHTS"
+      main_column: "#text(size: 1.3em, weight: \"bold\", stroke: 0.4pt)[NAME]\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: "**DATE**"
     experience_entry:
+      main_column: "#text(size: 1.15em, weight: \"bold\", stroke: 0.4pt)[COMPANY] | POSITION\nHIGHLIGHTS"
       date_and_location_column: "**DATE**"
