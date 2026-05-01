@@ -11,3 +11,8 @@
 # Python venv (rendercv)
 .venv/
 __pycache__/
+*.pyc
+
+# JD Tailor — 生成产物与个人隐私
+project/jd-tailor/output/
+project/jd-tailor/config/profile.md

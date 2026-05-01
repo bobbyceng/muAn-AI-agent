@@ -1,0 +1,30 @@
+{
+  "model": "deepseek-chat",
+  "api_base_url": "https://api.deepseek.com",
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "max_tokens": 4096,
+  "score_threshold": 55,
+  "master_resume_path": "/Volumes/T7 Shield/AI-workspace/木安-AI分身/求职/ai-product-manager/曾祥桉-AI产品经理.yaml",
+  "rendercv_bin": "/tmp/rendercv_env/bin/rendercv",
+  "hard_filter": {
+    "must_contain_location": ["深圳"],
+    "job_title_whitelist": [
+      "AI产品经理", "AI 产品经理", "ai产品经理",
+      "AI项目经理", "AI 项目经理", "ai项目经理",
+      "AI运营", "AI 运营", "AI产品运营", "AI 产品运营",
+      "AI增长", "AI 增长",
+      "AI解决方案", "AI 解决方案",
+      "智能产品", "数字化产品",
+      "AIPM", "AI PM",
+      "产品经理", "产品专员"
+    ],
+    "job_title_blacklist": [
+      "销售", "客服", "客户经理", "售前", "售后",
+      "实习生", "应届", "校招",
+      "跨境电商", "跨境"
+    ],
+    "company_blacklist_keywords": ["跨境电商", "亚马逊代运营", "外贸独立站"],
+    "max_required_years": 5,
+    "min_salary_k": 8
+  }
+}
