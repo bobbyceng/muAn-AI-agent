@@ -198,6 +198,17 @@ def main():
         file=sys.stderr,
     )
 
+    # 强制将 headline 对齐 JD 目标岗位（改写员可能未同步更新 headline 字段）
+    job_title_display = score_result.get("job_title", "")
+    if job_title_display:
+        new_yaml = re.sub(
+            r"^(\s*headline:\s*).*$",
+            lambda m: m.group(1) + job_title_display,
+            new_yaml,
+            count=1,
+            flags=re.MULTILINE,
+        )
+
     ok, msg = validate_yaml(new_yaml)
     if not ok:
         print(f"[ERROR] 改写后 YAML 校验失败：{msg}", file=sys.stderr)
