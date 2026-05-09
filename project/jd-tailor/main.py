@@ -12,7 +12,7 @@ from pathlib import Path
 import yaml
 from openai import OpenAI
 
-from agents import orchestrator
+from agents import orchestrator, summarizer
 
 ROOT = Path(__file__).parent
 CONFIG_PATH = ROOT / "config" / "settings.json"
@@ -242,6 +242,26 @@ def main():
     except subprocess.CalledProcessError as e:
         print(f"[ERROR] rendercv 渲染失败：{e}", file=sys.stderr)
         sys.exit(6)
+
+    # 5. 改写摘要（供飞书 Bot 直接使用）
+    print("[摘要] 生成改写摘要...", file=sys.stderr)
+    try:
+        summary = summarizer.generate(
+            score_result=score_result,
+            master_yaml=master_yaml,
+            new_yaml=new_yaml,
+            agent_log=agent_log,
+            client=client,
+            settings=settings,
+        )
+        summary_path = case_dir / "summary.txt"
+        summary_path.write_text(summary, encoding="utf-8")
+        print(f"[SUMMARY] {summary_path}", file=sys.stderr)
+        print("\n" + "=" * 60)
+        print(summary)
+        print("=" * 60)
+    except Exception as e:
+        print(f"[WARN] 摘要生成失败（不阻塞主流程）：{e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
