@@ -6,7 +6,7 @@
   name: "曾祥桉",
   title: "曾祥桉 - CV",
   footer: context { [#emph[曾祥桉 -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 17,
+    month: 5,
+    day: 9,
   ),
 )
 
@@ -204,17 +204,6 @@
     #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[语音下单助手（出行 AI Copilot，Concept Design）]
 
     #summary[项目背景 \     　• 为熟悉 AI 对话式交互设计，以出行下单场景为对象完成完整方案设计。 \ 我的工作 \     　• 拆解下单全链路，设计语音对话流程与多轮补全逻辑。 \     　• 构建异常处理机制（超时、识别失败、兜底策略），输出 PRD 与交互原型。 \ 项目价值 \     　• 沉淀对 AI 对话产品的用户流程设计与异常兜底能力。]
-
-  ],
-  [
-  ],
-)
-
-#regular-entry(
-  [
-    #text(size: 1.3em, weight: "bold", stroke: 0.4pt)[飞书 AI 晨报 | 低成本新闻聚合助手（Python / Feishu / RSS）]
-
-    #summary[项目背景 \     　• 针对多源信息获取低效问题，构建轻量化 AI 晨报系统。 \ 我的工作 \     　• 设计多源信息聚合 + 飞书推送流程，\"两级触发\"机制平衡响应与资源。 \     　• 在零成本约束下完成 MVP 闭环搭建。 \ 项目价值 \     　• 交付可运行方案，体现用 AI 工具解决实际效率问题的能力。]
 
   ],
   [
